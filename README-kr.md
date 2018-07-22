@@ -365,45 +365,45 @@ Check out the following links to get a better idea of what to expect:
 | Design a circular array | [Contribute](#contributing)  |
 | Add an object-oriented design question | [Contribute](#contributing) |
 
-## System design topics: start here
+## 시스템 디자인 토픽: 여기서 시작
 
-New to system design?
+새로운 시스템을 디자인합니까?
 
-First, you'll need a basic understanding of common principles, learning about what they are, how they are used, and their pros and cons.
+먼저, 공통 원리에 대한 기본적인 이해가 필요하며, 그것이 무엇인지, 사용법, 장단점에 대해 알아야합니다.
 
-### Step 1: Review the scalability video lecture
+### 1 단계: 확장성관련 비디오 강의 돌아보기
 
-[Scalability Lecture at Harvard](https://www.youtube.com/watch?v=-W9F__D3oY4)
+[하버드에서의 확장성관련 강의](https://www.youtube.com/watch?v=-W9F__D3oY4)
 
-* Topics covered:
-    * Vertical scaling
-    * Horizontal scaling
-    * Caching
-    * Load balancing
-    * Database replication
-    * Database partitioning
+* 다음 항목을 다룹니다:
+    * 수직 스케일링
+    * 수평 스케일링
+    * 캐싱
+    * 로드 밸런싱
+    * 데이터베이스 복제
+    * 데이터베이스 파티셔닝
 
-### Step 2: Review the scalability article
+### 2 단계: 확장성관련 글 읽어보기
 
-[Scalability](http://www.lecloud.net/tagged/scalability)
+[확장성](http://www.lecloud.net/tagged/scalability)
 
-* Topics covered:
-    * [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-    * [Databases](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
-    * [Caches](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-    * [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+* 다음 항목을 다룹니다:
+    * [복제(Clones)](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+    * [데이터베이스(Databases)](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+    * [캐시(Caches)](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+    * [비동기성(Asynchronism)](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
 
-### Next steps
+### 다음 단계
 
-Next, we'll look at high-level trade-offs:
+다음으로 높은 수준의 절충 사항을 살펴본다:
 
-* **Performance** vs **scalability**
-* **Latency** vs **throughput**
-* **Availability** vs **consistency**
+* **성능** vs **확장성**
+* **대기시간** vs **처리량**
+* **가용성** vs **일반성**
 
-Keep in mind that **everything is a trade-off**.
+**이 모든 내용이 절충되는 사안임을** 명심하십시오.
 
-Then we'll dive into more specific topics such as DNS, CDNs, and load balancers.
+그런 다음 DNS, CDN, 로드 밸런서와 같이 보다 구체적인 주제에 대해 살펴봅니다.
 
 ## Performance vs scalability
 
